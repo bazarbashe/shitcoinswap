@@ -1,16 +1,14 @@
 {
-  "name": "Node.js Sample",
-  "description": "A barebones Node.js app using Express",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static"],
-  "stack": "heroku-18"
-},
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "bundle exec rake db:migrate"
-      }
-    }
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+"stack": "heroku-18",
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
   }
 }
+
