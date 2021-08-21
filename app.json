@@ -1,4 +1,7 @@
 {
+  {
+   "stack": "heroku-18"
+  }
   "scripts": {
     "dokku": {
       "postdeploy": "bundle exec rake db:migrate"
