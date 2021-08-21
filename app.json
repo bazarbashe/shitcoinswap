@@ -1,7 +1,6 @@
 {
   "name": "Small Sharp Tool",
   "description": "This app does one little thing, and does it well.",
-  "stack": "heroku-18",
   "keywords": [
     "productivity",
     "HTML5",
@@ -10,6 +9,7 @@
   "website": "https://small-sharp-tool.com/",
   "repository": "https://github.com/jane-doe/small-sharp-tool",
   "logo": "https://small-sharp-tool.com/logo.svg",
+  "stack": "heroku-18",
   "scripts": {
     "postdeploy": "bundle exec rake bootstrap"
   },
