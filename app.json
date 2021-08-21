@@ -1,7 +1,7 @@
 {
-  
-    "stack": "heroku-18"
-  
+  {
+   "stack": "heroku-18"
+  },
   "environments": {
     "test": {
       "scripts": {
